@@ -1,10 +1,19 @@
+import { GreenButton } from "./GreenButton";
+import { RedButton } from "./RedButton";
+import { YellowButton } from "./YellowButton";
+import { ReadState } from "./ReadState";
 
 
 function Home() {
  
 
   return (
-    <h1>Adios Mundo</h1>
+    <>
+    <ReadState/>
+    <GreenButton/>
+    <YellowButton/>
+    <RedButton/>
+    </>
   )
 }
 

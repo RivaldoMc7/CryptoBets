@@ -1,0 +1,10 @@
+/mnt/c/Users/hecto/OneDrive/Documentos/GitHub/CryptoBets/Contracts/Example-Semaforo-Tutorial/Semaforo-Contract/target/wasm-projects/release/release/deps/libthiserror-8c0cb5e4c893a93c.rmeta: /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/thiserror-1.0.56/src/lib.rs /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/thiserror-1.0.56/src/aserror.rs /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/thiserror-1.0.56/src/display.rs /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/thiserror-1.0.56/src/provide.rs
+
+/mnt/c/Users/hecto/OneDrive/Documentos/GitHub/CryptoBets/Contracts/Example-Semaforo-Tutorial/Semaforo-Contract/target/wasm-projects/release/release/deps/libthiserror-8c0cb5e4c893a93c.rlib: /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/thiserror-1.0.56/src/lib.rs /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/thiserror-1.0.56/src/aserror.rs /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/thiserror-1.0.56/src/display.rs /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/thiserror-1.0.56/src/provide.rs
+
+/mnt/c/Users/hecto/OneDrive/Documentos/GitHub/CryptoBets/Contracts/Example-Semaforo-Tutorial/Semaforo-Contract/target/wasm-projects/release/release/deps/thiserror-8c0cb5e4c893a93c.d: /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/thiserror-1.0.56/src/lib.rs /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/thiserror-1.0.56/src/aserror.rs /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/thiserror-1.0.56/src/display.rs /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/thiserror-1.0.56/src/provide.rs
+
+/root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/thiserror-1.0.56/src/lib.rs:
+/root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/thiserror-1.0.56/src/aserror.rs:
+/root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/thiserror-1.0.56/src/display.rs:
+/root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/thiserror-1.0.56/src/provide.rs:

@@ -1,0 +1,13 @@
+/mnt/c/Users/hecto/OneDrive/Documentos/GitHub/CryptoBets/Contracts/Example-Semaforo-Tutorial/Semaforo-Contract/target/release/deps/libgcore-df9e6a1660932ddf.rmeta: /root/.cargo/git/checkouts/gear-bdc2b7d48ef3acbd/d02d306/gcore/src/lib.rs /root/.cargo/git/checkouts/gear-bdc2b7d48ef3acbd/d02d306/gcore/src/errors.rs /root/.cargo/git/checkouts/gear-bdc2b7d48ef3acbd/d02d306/gcore/src/exec.rs /root/.cargo/git/checkouts/gear-bdc2b7d48ef3acbd/d02d306/gcore/src/msg.rs /root/.cargo/git/checkouts/gear-bdc2b7d48ef3acbd/d02d306/gcore/src/prog.rs /root/.cargo/git/checkouts/gear-bdc2b7d48ef3acbd/d02d306/gcore/src/general.rs /root/.cargo/git/checkouts/gear-bdc2b7d48ef3acbd/d02d306/gcore/src/utils.rs
+
+/mnt/c/Users/hecto/OneDrive/Documentos/GitHub/CryptoBets/Contracts/Example-Semaforo-Tutorial/Semaforo-Contract/target/release/deps/libgcore-df9e6a1660932ddf.rlib: /root/.cargo/git/checkouts/gear-bdc2b7d48ef3acbd/d02d306/gcore/src/lib.rs /root/.cargo/git/checkouts/gear-bdc2b7d48ef3acbd/d02d306/gcore/src/errors.rs /root/.cargo/git/checkouts/gear-bdc2b7d48ef3acbd/d02d306/gcore/src/exec.rs /root/.cargo/git/checkouts/gear-bdc2b7d48ef3acbd/d02d306/gcore/src/msg.rs /root/.cargo/git/checkouts/gear-bdc2b7d48ef3acbd/d02d306/gcore/src/prog.rs /root/.cargo/git/checkouts/gear-bdc2b7d48ef3acbd/d02d306/gcore/src/general.rs /root/.cargo/git/checkouts/gear-bdc2b7d48ef3acbd/d02d306/gcore/src/utils.rs
+
+/mnt/c/Users/hecto/OneDrive/Documentos/GitHub/CryptoBets/Contracts/Example-Semaforo-Tutorial/Semaforo-Contract/target/release/deps/gcore-df9e6a1660932ddf.d: /root/.cargo/git/checkouts/gear-bdc2b7d48ef3acbd/d02d306/gcore/src/lib.rs /root/.cargo/git/checkouts/gear-bdc2b7d48ef3acbd/d02d306/gcore/src/errors.rs /root/.cargo/git/checkouts/gear-bdc2b7d48ef3acbd/d02d306/gcore/src/exec.rs /root/.cargo/git/checkouts/gear-bdc2b7d48ef3acbd/d02d306/gcore/src/msg.rs /root/.cargo/git/checkouts/gear-bdc2b7d48ef3acbd/d02d306/gcore/src/prog.rs /root/.cargo/git/checkouts/gear-bdc2b7d48ef3acbd/d02d306/gcore/src/general.rs /root/.cargo/git/checkouts/gear-bdc2b7d48ef3acbd/d02d306/gcore/src/utils.rs
+
+/root/.cargo/git/checkouts/gear-bdc2b7d48ef3acbd/d02d306/gcore/src/lib.rs:
+/root/.cargo/git/checkouts/gear-bdc2b7d48ef3acbd/d02d306/gcore/src/errors.rs:
+/root/.cargo/git/checkouts/gear-bdc2b7d48ef3acbd/d02d306/gcore/src/exec.rs:
+/root/.cargo/git/checkouts/gear-bdc2b7d48ef3acbd/d02d306/gcore/src/msg.rs:
+/root/.cargo/git/checkouts/gear-bdc2b7d48ef3acbd/d02d306/gcore/src/prog.rs:
+/root/.cargo/git/checkouts/gear-bdc2b7d48ef3acbd/d02d306/gcore/src/general.rs:
+/root/.cargo/git/checkouts/gear-bdc2b7d48ef3acbd/d02d306/gcore/src/utils.rs:
