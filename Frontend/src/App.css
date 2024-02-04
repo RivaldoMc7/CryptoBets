@@ -7,18 +7,18 @@
   display: flex;
   flex-direction: column;
   box-sizing: content-box;
-  background:white; 
+  background: black; 
 }
 
 main {
-  background: white;
+  background: black;
   background-size: 200% 200%;
   animation: gradientAnimation 5s linear infinite;
 }
 
 
 body {
-  background: white;
+  background: black;
   background-size: 200% 200%;
   animation: gradientAnimation 5s linear infinite;
 }

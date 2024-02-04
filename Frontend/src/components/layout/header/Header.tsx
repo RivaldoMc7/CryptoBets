@@ -1,5 +1,5 @@
 
-import { Avatar, AvatarBadge, AvatarGroup, Stack } from '@chakra-ui/react'
+import { Avatar, Box, Button, Heading, AvatarBadge, AvatarGroup, Stack } from '@chakra-ui/react'
 import { Account } from './account';
 import styles from './Header.module.scss';
 
@@ -12,14 +12,15 @@ function Header({ isAccountVisible }: Props) {
     <header className={styles.header}>
       <h1>Logo</h1>
       <Stack direction='row' spacing={4}>
-  <Avatar>
-    <AvatarBadge boxSize='1.25em' bg='green.500' />
-  </Avatar>
+      <Box h = '5vh' bg = 'black' alignSelf='center'>
+      <Heading color = 'white' textTransform= 'uppercase' textAlign= 'center'>
+      CryptoBets
+        </Heading>
+      
+    </Box>
 
   {/* You can also change the borderColor and bg of the badge */}
-  <Avatar>
-    <AvatarBadge borderColor='papayawhip' bg='tomato' boxSize='1.25em' />
-  </Avatar>
+
 </Stack>
       {isAccountVisible && <Account />}
     </header>
