@@ -23,6 +23,12 @@ body {
   animation: gradientAnimation 5s linear infinite;
 }
 
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Ajusta el tamaño de las columnas */
+  grid-gap: 10px; /* Espacio entre elementos */
+}
+
 @keyframes gradientAnimation {
   0% {
     background-position: 0% 50%;
