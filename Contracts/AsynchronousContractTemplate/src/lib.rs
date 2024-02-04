@@ -86,30 +86,36 @@ extern "C" fn init () {
 
 // 4.Create the main() function of your contract.
 #[async_main]
-async fn main(){
+async fn main() {
+    let action: Action = msg::load().expect("Could not load Action");
 
-        // We load the input message
-        let action: Action = msg::load().expect("Could not load Action");
-
-        // We receive an action from the user and update the state. Example:
-        match action {
-            Action::FirstAction => {
-
-                // Create a variable with mutable state.
-                let currentstate = state_mut();
-
-                // Update your state.
-                currentstate.thirdfield
+    match action {
+        Action::FirstAction => {
+            let current_state = state_mut();
+            current_state.thirdfield
                 .entry(msg::source())
                 .and_modify(|number| *number = number.saturating_add(1))
                 .or_insert(1);
 
+            // Generate your event.
+            let _ = msg::reply(Event::FirstEvent, 0);
+        }
+        Action::GuessNumber(guess) => {
+            // Implementa la lógica de generación aleatoria de números y comparación
+            let random_number = rand::random;
 
-                 // Generate your event.
-                 let _ =msg::reply(Event::FirstEvent,0);
+            let current_state = state_mut();
 
-
+            // Verifica si el usuario adivinó correctamente
+            if guess == random_number {
+                // El usuario adivinó correctamente, duplica la apuesta y genera el evento correspondiente
+                current_state.secondfield = current_state.secondfield.saturating_mul(2);
+                let _ = msg::reply(Event::GuessedCorrectly(current_state.secondfield), 0);
+            } else {
+                // El usuario no adivinó, pierde la apuesta y genera el evento correspondiente
+                let _ = msg::reply(Event::GuessedIncorrectly(current_state.secondfield), 0);
             }
+        }
             Action::SecondAction(input) => {
 
 

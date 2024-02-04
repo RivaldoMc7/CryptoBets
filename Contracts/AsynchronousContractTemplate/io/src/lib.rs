@@ -13,7 +13,7 @@ pub enum Action {
     SecondAction(String), // Example an action with a u128 input
     ThirdAction(u128), // Example an action with a String input
     Fourthaction(CustomInput), // Example an action with a custom input
-  
+    GuessNumber(u128),
     
 }
 
@@ -35,7 +35,10 @@ pub enum  Event {
     FirstEvent,
     SecondEvent,
     ThirdEvent,
-    FourtEvent
+    FourtEvent,
+    GuessedCorrectly(u128), // El usuario adivinó correctamente y ganó tokens
+    GuessedIncorrectly(u128), // El usuario no adivinó y perdió tokens
+
 }
 
 
