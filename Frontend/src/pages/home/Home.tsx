@@ -1,28 +1,24 @@
 import { Card, CardHeader, CardBody, CardFooter, Box,Heading, Stack, StackDivider, Text, Button, ButtonGroup, Image, Divider} from '@chakra-ui/react'
-import { GreenButton } from "./GreenButton";
-import { RedButton } from "./RedButton";
-import { YellowButton } from "./YellowButton";
-import { ReadState } from "./ReadState";
+import { TotalSupply } from "./TotalSupply";
 import { Mailbox } from "./Mailbox";
 
 function Home() {
  
   return (
     <>
+    <TotalSupply/>
     <div className="container">
       <div><Card maxW='sm'>
   <CardBody>
     <Image
-      src='https://images.unsplash.com/photo-1555041469-a586c61ea9bc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80'
-      alt='Green double couch with wooden legs'
+      src='https://imagenes.elpais.com/resizer/odba0yKV2ChUPM8uuAqxByAiBnI=/414x0/cloudfront-eu-central-1.images.arcpublishing.com/prisa/GS3FZX5YFVC6HCBGALQNVMYZTE.jpg'
+      alt='Guess random number'
       borderRadius='lg'
     />
     <Stack mt='6' spacing='3'>
-      <Heading size='md'>Living room Sofa</Heading>
+      <Heading size='md'>Guess random number</Heading>
       <Text>
-        This sofa is perfect for modern tropical spaces, baroque inspired
-        spaces, earthy toned spaces and for people who love a chic design with a
-        sprinkle of vintage design.
+        Guess if a number is higher or lower, if you get it right, you win!
       </Text>
       <Text color='blue.600' fontSize='2xl'>
         $450
@@ -33,10 +29,10 @@ function Home() {
   <CardFooter>
     <ButtonGroup spacing='2'>
       <Button variant='solid' colorScheme='blue'>
-        Buy now
+        Play now
       </Button>
       <Button variant='ghost' colorScheme='blue'>
-        Add to cart
+        Multiplayer
       </Button>
     </ButtonGroup>
   </CardFooter>
