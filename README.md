@@ -1,6 +1,6 @@
-# Kit de Integración para Vara Network
+# CryptoBets - Descentralized Gaming Platform
 
-Bienvenido al Kit de Integración para Vara Network, es una herramienta poderosa para facilitar la integración con Vara Network en tus proyectos. Este kit proporciona una base sólida para interactuar con Vara Network y aprovechar sus capacidades en tu aplicación.
+Welcome to the CryptoBets repository, 
 
 ## Características Principales
 
